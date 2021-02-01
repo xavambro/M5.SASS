@@ -45,6 +45,8 @@ $keyframeProperties: translate3d(-100%, 0, 0),translate3d(0, 100%, 0),translate3
 
 body {
   margin: 10px 0 0 0;
+  //Para esconder la barra de scroll vertical y horizontalmente
+  overflow: hidden;
 }
 
 h1 {
