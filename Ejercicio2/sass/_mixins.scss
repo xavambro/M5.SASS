@@ -1,0 +1,19 @@
+/*mixins*/
+@mixin animation($color,$name,$duration){
+    background-color: $color;
+    animation-name: $name;
+    animation-duration: $duration;
+    animation-timing-function: ease-out;
+
+}
+@mixin transform($skew, $scale, $translate){
+    -webkit-transform: $skew $scale $translate;
+    transform: $skew $scale $translate;
+
+}
+@mixin flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
